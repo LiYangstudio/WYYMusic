@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffe6e8e9">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        >
+       <ImageView
+           android:id="@+id/music_fristdetail"
+           android:layout_width="10dp"
+           android:layout_height="match_parent"
+           android:layout_alignParentLeft="true"
+           android:layout_centerInParent="true"
+           android:rotation="90"
+           android:layout_marginLeft="10dp"
+          android:src="@drawable/music_arrow"/>
+        <TextView
+            android:id="@+id/music_detailtv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/music_fristdetail"
+            android:layout_marginLeft="12dp"
+            android:textSize="14sp"
+            android:text="收藏的歌单（0）" />
+        <ImageView
+            android:id="@+id/music_fristdetailiv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+           android:src="@drawable/music_detaillist"/>
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/music_seconddetail"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:rotation="90"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/music_arrow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/music_seconddetail"
+            android:layout_marginLeft="12dp"
+            android:textSize="14sp"
+            android:text="收藏的歌单（0）"/>
+        <ImageView
+            android:id="@+id/music_seconddetailiv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/music_detaillist"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

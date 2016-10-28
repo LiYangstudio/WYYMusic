@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WYYMusic</string>
+    <string name="outsearch">"扫描本地歌曲"</string>
+    <string name="insearch">"扫描歌曲"</string>
+    <string name="selectorder">"选择排序方式"</string>
+    <string name="musicword">"一键获取歌词"</string>
+    <string name="updatemusic">"升级音质"</string>
+</resources>

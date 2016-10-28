@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/localmusic_outsearch"
+        android:icon="@drawable/localmusic_outsearch"
+        android:title="@string/outsearch"
+       app:showAsAction="always"/>
+    <item
+        android:id="@+id/localmusic_insearch"
+        android:icon="@drawable/localmusic_search"
+        android:title="@string/insearch"
+        app:showAsAction="never"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/localmusic_selectorder"
+        android:icon="@drawable/localmusic_down"
+        android:title="@string/selectorder"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/localmusic_musicword"
+        android:icon="@drawable/localmusic_word"
+        android:title="@string/musicword"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/localmusic_update"
+        android:icon="@drawable/localmusic_music"
+        android:title="@string/updatemusic"
+        app:showAsAction="never"/>
+
+
+</menu>

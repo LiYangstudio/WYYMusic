@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:id="@+id/menu_firstgroup"
+    android:checkableBehavior="single">
+    <item
+        android:icon="@drawable/topmenu_icn_msg"
+        android:title="我的消息"></item>
+    <item
+        android:icon="@drawable/topmenu_icn_store"
+        android:title="积分商城"></item>
+    <item
+        android:title="付费音乐包"
+        android:icon="@drawable/topmenu_icn_member"></item>
+    <item
+        android:icon="@drawable/topmenu_icn_free"
+        android:title="在线免费听歌"></item>
+
+</group>
+    <group
+        android:id="@+id/menu_secondgroup"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/topmenu_icn_identify"
+            android:title="听歌识曲"/>
+        <item
+            android:icon="@drawable/topmenu_icn_skin"
+            android:title="主题换肤"/>
+        <item
+            android:title="夜间模式"
+            android:icon="@drawable/topmenu_icn_night"/>
+        <item
+            android:icon="@drawable/topmenu_icn_time"
+            android:title="定时停止播放"/>
+        <item
+            android:title="音乐闹钟"
+            android:icon="@drawable/topmenu_icn_clock"/>
+        <item
+            android:icon="@drawable/topmenu_icn_cloud"
+            android:title="我的音乐云盘"/>
+
+
+
+
+
+
+
+    </group>
+
+
+
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/toolbar_music_dark" android:state_pressed="true"></item>
+<item android:state_selected="true" android:drawable="@drawable/toolbar_music_dark"></item>
+    <item android:drawable="@drawable/toolbar_music_light" android:state_pressed="false"></item>
+    <item android:state_selected="false" android:drawable="@drawable/toolbar_music_light"></item>
+
+
+</selector>
